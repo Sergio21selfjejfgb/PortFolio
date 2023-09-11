@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(100deg, #2196F3,#03A9F4,
+    #00BCD4, #009688, #b0dce4, #abd2e4, #cef3fa, #a3dbf5,  
+    #45a1ec, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #7ff174, #9ee490);
+    background-size: 700% 700%;
+    animation: BackgroundGradient 100s ease infinite;
+    text-align: center;
+}
+            
+    @keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+header{
+    width: 100%;
+    min-width: 5em;
+}
+
+header h1,h2{
+    font-size: 4rem;
+}
+
+header .cajaLinks{
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+header .cajaLinks h3{
+    width: 50%;
+}
+
+ 
+
+
+
+  
+  
