@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(100deg, #0789f3,#03a8f4,
+    #00bbd4, #39cefc,#45a1ec, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #7ff174, #9ee490);
+    background-size: 700% 700%;
+    animation: BackgroundGradient 60s ease infinite;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+            
+    @keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.nav {
+    padding: 30px;
+    text-align: center;
+}
+
+.nav .ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav .ul .li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.nav .a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px;
+}
+
+section h1{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+section h2{
+    padding: 20px;
+    font-size: 3rem;
+}
+
+section {
+    padding: 100px;
+}
+
+section .a{
+    padding: 15px;
+    margin: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.project {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.proyecto {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+}
+
+#acerca-de-mi {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.descripcion{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+@media  (max-width: 670px)  {
+    body{      
+        width: 100%; 
+    }
+    nav { display: flex;
+        flex-wrap: wrap; 					 
+        padding: 0;
+        position: static;}
+
+    nav a{
+        width: 100%;
+        margin: 30px;
+    }
+    section {
+        width: 100%;        
+        padding: 20px;
+    }
+    section .enlaces{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .a{
+        width: 100%;
+        margin: 30px;
+    }
+
+    section .descripcion{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: none;
+        margin-right: none;
+    }
+}
+
+
+
+ 
+
+
+
+  
+  
